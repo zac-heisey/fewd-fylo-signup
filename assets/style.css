@@ -23,10 +23,22 @@ body {
 /* Section Styles */
 
 #left {
-  width: 50%;
+  width: 45%;
   background: linear-gradient(to bottom left, hsl(243, 87%, 12%), hsl(243, 86%, 85%));
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #right {
-  width: 50%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+
+/* Nav Styles */
+
+
+/* Main Content Styles */
