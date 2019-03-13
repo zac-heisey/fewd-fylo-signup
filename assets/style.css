@@ -35,10 +35,19 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 4rem;
 }
 
 
-/* Nav Styles */
+/* Header & Nav Styles */
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ion-icon {
+  font-size: 24px;
+}
 
 /* Main Content Styles */
