@@ -78,19 +78,46 @@ label {
 }
 
 input[type="email"] {
-  height: 3rem;
-  width: 16rem;
+  height: 4rem;
+  width: 18rem;
   border-radius: 0.3rem;
   font-size: 1rem;
   margin-top: 1rem;
+  margin-right: 1rem;
 }
 
 input[type="submit"] {
   background-color: hsl(163, 95%, 43%);
-  height: 3rem;
-  width: 10rem;
+  height: 4rem;
+  width: 11rem;
   border-radius: 0.3rem;
   color: #fff;
   font-size: 1rem;
   font-family: 'Open Sans', sans-serif;
+  box-shadow: 3px 3px 5px hsl(0, 0%, 70%);
+}
+
+/* Footer Styles */
+
+footer {
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1115px) {
+
+  body {
+    flex-direction: column;
+  }
+
+  #left {
+    width: 100%;
+  }
+
+  #right {
+    width: 100%;
+  }
+
 }
