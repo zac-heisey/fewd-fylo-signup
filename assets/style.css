@@ -78,8 +78,8 @@ label {
 }
 
 input[type="email"] {
-  height: 4rem;
-  width: 18rem;
+  height: 3.5rem;
+  width: 20rem;
   border-radius: 0.3rem;
   font-size: 1rem;
   margin-top: 1rem;
@@ -88,8 +88,8 @@ input[type="email"] {
 
 input[type="submit"] {
   background-color: hsl(163, 95%, 43%);
-  height: 4rem;
-  width: 11rem;
+  height: 3.5rem;
+  width: 10rem;
   border-radius: 0.3rem;
   color: #fff;
   font-size: 1rem;
@@ -108,9 +108,13 @@ footer {
 
 @media only screen and (max-width: 1115px) {
 
+  /* Global Styles */
+
   body {
     flex-direction: column;
   }
+
+  /* Section Styles */
 
   #left {
     width: 100%;
@@ -128,11 +132,7 @@ footer {
     padding: 2rem;
   }
 
-  ion-icon {
-    font-size: 18px;
-    margin-left: 1rem;
-    color: #fff;
-  }
+  /* Header & Nav Styles */
 
   header {
     position: absolute;
@@ -144,6 +144,14 @@ footer {
     width: 84px;
     height: 24.5px;
   }
+
+  ion-icon {
+    font-size: 18px;
+    margin-left: 1rem;
+    color: #fff;
+  }
+
+  /* Form Styles */
 
   input[type="email"] {
     height: 2.5rem;
