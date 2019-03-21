@@ -125,6 +125,7 @@ footer {
 
   #left > img {
     width: 65%;
+    max-width: 405px
   }
 
   #right {
