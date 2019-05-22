@@ -7,3 +7,27 @@
 
 4) Do some preliminary layout adjustments -> Jump into Unit 5
 **/
+
+/* Global Resets */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  color: hsl(0, 0%, 50%);
+}
+
+#left {
+  background: linear-gradient(to top right, hsl(243, 86%, 85%), hsl(243, 87%, 12%));
+}
