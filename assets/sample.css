@@ -10,6 +10,8 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  display: flex;
+  height: 100vh;
 }
 
 h1 {
@@ -23,5 +25,17 @@ p {
 /* Section Styles */
 
 #left {
+  width: 45%;
   background: linear-gradient(to top right, hsl(243, 86%, 85%), hsl(243, 87%, 12%));
+}
+
+#right {
+  width: 55%;
+}
+
+/* Header & Nav Styles */
+
+header {
+  display: flex;
+  justify-content: space-between;
 }
